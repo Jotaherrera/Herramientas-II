@@ -66,7 +66,7 @@
             this.mns1.Name = "mns1";
             this.mns1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
             this.mns1.Size = new System.Drawing.Size(654, 24);
-            this.mns1.TabIndex = 3;
+            this.mns1.TabIndex = 0;
             this.mns1.Text = "menuStrip1";
             // 
             // tscFile
@@ -94,11 +94,12 @@
             this.grpPrincipal.Controls.Add(this.btnStop);
             this.grpPrincipal.Controls.Add(this.btnPlay);
             this.grpPrincipal.Controls.Add(this.btnPrevious);
+            this.grpPrincipal.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.grpPrincipal.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.grpPrincipal.Location = new System.Drawing.Point(0, 414);
             this.grpPrincipal.Name = "grpPrincipal";
             this.grpPrincipal.Size = new System.Drawing.Size(654, 177);
-            this.grpPrincipal.TabIndex = 4;
+            this.grpPrincipal.TabIndex = 2;
             this.grpPrincipal.TabStop = false;
             // 
             // lblVolume
@@ -107,37 +108,40 @@
             this.lblVolume.Location = new System.Drawing.Point(439, 33);
             this.lblVolume.Name = "lblVolume";
             this.lblVolume.Size = new System.Drawing.Size(13, 13);
-            this.lblVolume.TabIndex = 8;
+            this.lblVolume.TabIndex = 6;
             this.lblVolume.Text = "0";
             // 
             // trbVolume
             // 
+            this.trbVolume.Cursor = System.Windows.Forms.Cursors.Hand;
             this.trbVolume.Location = new System.Drawing.Point(329, 31);
             this.trbVolume.Maximum = 100;
             this.trbVolume.Name = "trbVolume";
             this.trbVolume.Size = new System.Drawing.Size(104, 45);
-            this.trbVolume.TabIndex = 7;
+            this.trbVolume.TabIndex = 5;
             this.trbVolume.Scroll += new System.EventHandler(this.trbVolume_Scroll);
             // 
             // lstList
             // 
+            this.lstList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lstList.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lstList.FormattingEnabled = true;
             this.lstList.Location = new System.Drawing.Point(3, 79);
             this.lstList.Name = "lstList";
             this.lstList.Size = new System.Drawing.Size(648, 95);
-            this.lstList.TabIndex = 6;
+            this.lstList.TabIndex = 7;
             this.lstList.SelectedIndexChanged += new System.EventHandler(this.lstList_SelectedIndexChanged);
             // 
             // btnNext
             // 
             this.btnNext.AutoSize = true;
+            this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNext.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnNext.Location = new System.Drawing.Point(264, 24);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(59, 43);
-            this.btnNext.TabIndex = 5;
+            this.btnNext.TabIndex = 4;
             this.btnNext.Text = "⏭️";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
@@ -145,12 +149,13 @@
             // btnPause
             // 
             this.btnPause.AutoSize = true;
+            this.btnPause.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPause.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPause.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnPause.Location = new System.Drawing.Point(134, 24);
             this.btnPause.Name = "btnPause";
             this.btnPause.Size = new System.Drawing.Size(59, 43);
-            this.btnPause.TabIndex = 4;
+            this.btnPause.TabIndex = 2;
             this.btnPause.Text = "⏸️";
             this.btnPause.UseVisualStyleBackColor = true;
             this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
@@ -158,6 +163,7 @@
             // btnStop
             // 
             this.btnStop.AutoSize = true;
+            this.btnStop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStop.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStop.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnStop.Location = new System.Drawing.Point(199, 24);
@@ -171,12 +177,13 @@
             // btnPlay
             // 
             this.btnPlay.AutoSize = true;
+            this.btnPlay.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlay.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPlay.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnPlay.Location = new System.Drawing.Point(71, 24);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(57, 43);
-            this.btnPlay.TabIndex = 2;
+            this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = " ►";
             this.btnPlay.UseVisualStyleBackColor = true;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
@@ -184,12 +191,13 @@
             // btnPrevious
             // 
             this.btnPrevious.AutoSize = true;
+            this.btnPrevious.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPrevious.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.btnPrevious.Location = new System.Drawing.Point(6, 24);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(59, 43);
-            this.btnPrevious.TabIndex = 1;
+            this.btnPrevious.TabIndex = 0;
             this.btnPrevious.Text = "⏮️";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
@@ -228,7 +236,7 @@
             this.lblTrackStart.Location = new System.Drawing.Point(9, 6);
             this.lblTrackStart.Name = "lblTrackStart";
             this.lblTrackStart.Size = new System.Drawing.Size(38, 16);
-            this.lblTrackStart.TabIndex = 10;
+            this.lblTrackStart.TabIndex = 1;
             this.lblTrackStart.Text = "00:00";
             // 
             // prgbr1
@@ -240,7 +248,7 @@
             this.prgbr1.Name = "prgbr1";
             this.prgbr1.Size = new System.Drawing.Size(513, 15);
             this.prgbr1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.prgbr1.TabIndex = 9;
+            this.prgbr1.TabIndex = 0;
             // 
             // lblTrackEnd
             // 
@@ -251,7 +259,7 @@
             this.lblTrackEnd.Location = new System.Drawing.Point(602, 7);
             this.lblTrackEnd.Name = "lblTrackEnd";
             this.lblTrackEnd.Size = new System.Drawing.Size(38, 16);
-            this.lblTrackEnd.TabIndex = 10;
+            this.lblTrackEnd.TabIndex = 3;
             this.lblTrackEnd.Text = "00:00";
             // 
             // panel1
@@ -265,7 +273,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 399);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(654, 28);
-            this.panel1.TabIndex = 5;
+            this.panel1.TabIndex = 1;
             // 
             // frmMediaPlayer
             // 
@@ -276,6 +284,7 @@
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.mns1);
             this.Controls.Add(this.grpPrincipal);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mns1;
             this.Margin = new System.Windows.Forms.Padding(2);
