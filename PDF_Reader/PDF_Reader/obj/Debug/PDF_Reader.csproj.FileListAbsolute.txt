@@ -1,0 +1,16 @@
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\bin\Debug\PDF_Reader.exe.config
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\bin\Debug\PDF_Reader.exe
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\bin\Debug\PDF_Reader.pdb
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\bin\Debug\Interop.AcroPDFLib.dll
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.csproj.AssemblyReference.cache
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.csproj.SuggestedBindingRedirects.cache
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\Interop.AcroPDFLib.dll
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.csproj.ResolveComReference.cache
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.Properties.Resources.resources
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.csproj.GenerateResource.cache
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.csproj.CoreCompileInputs.cache
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.exe
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.pdb
+E:\Jotaherrera\Coding\Herramientas-II\PDF_Reader\PDF_Reader\obj\Debug\PDF_Reader.frmPDF.resources
