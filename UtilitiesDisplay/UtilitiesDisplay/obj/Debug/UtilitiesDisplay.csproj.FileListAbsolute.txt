@@ -12,3 +12,17 @@ E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debu
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.exe
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.pdb
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.frmUtilitiesDisplay.resources
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.exe.config
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.exe
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.pdb
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.pdb
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.AssemblyReference.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.SuggestedBindingRedirects.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.frmUtilitiesDisplay.resources
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.Properties.Resources.resources
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.GenerateResource.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.CoreCompileInputs.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.CopyComplete
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.exe
+C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.pdb

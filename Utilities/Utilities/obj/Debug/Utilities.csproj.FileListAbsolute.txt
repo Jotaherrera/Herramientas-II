@@ -4,3 +4,14 @@ E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.cs
 E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.dll
 E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.pdb
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\Utilities.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\Utilities.pdb
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.pdb
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Interop.WUApiLib.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.ResolveComReference.cache
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CopyComplete

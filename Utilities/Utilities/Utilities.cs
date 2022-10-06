@@ -8,6 +8,11 @@ using System.Management.Instrumentation;
 using System.Reflection.Emit;
 using System.Collections;
 using System.IO;
+using System.Net.NetworkInformation;
+using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using WUApiLib;
+using System.Diagnostics;
 
 namespace Utilities
 {
@@ -86,6 +91,61 @@ namespace Utilities
             }
 
             return 0;
+        }
+
+        public string GetNIC(RichTextBox rtb)
+        {
+            NetworkInterface[] interfaces = NetworkInterface.GetAllNetworkInterfaces();
+
+            foreach (NetworkInterface adapter in interfaces)
+            {
+                rtb.AppendText(Environment.NewLine + adapter.Name);
+                rtb.AppendText(Environment.NewLine + "  Description .............................  " + adapter.Description);
+                rtb.AppendText(Environment.NewLine + "  Interface type .......................... " + adapter.NetworkInterfaceType);
+                rtb.AppendText(Environment.NewLine + "  Operational status ...................  " + adapter.OperationalStatus);
+                rtb.AppendText(Environment.NewLine + "  MAC address ..........................  " + adapter.GetPhysicalAddress());
+                rtb.AppendText(Environment.NewLine);
+            }
+
+            return null;
+        }
+
+        public string GetUpdates(RichTextBox rtb)
+        {
+            var updateSession = new UpdateSession();
+            var updateSearcher = updateSession.CreateUpdateSearcher();
+            var count = updateSearcher.GetTotalHistoryCount();
+            var history = updateSearcher.QueryHistory(0, count);
+
+            for (int i = 0; i < count; ++i)
+            {
+                rtb.AppendText(Environment.NewLine + history[i].Title);
+            }
+
+            return null;
+        }
+
+        public class TaskManager
+        {
+            Process[] proc;
+            public void GetTasks(ListBox lst)
+            {
+                proc = Process.GetProcesses();
+                lst.Items.Clear();
+                foreach (Process p in proc)
+                    lst.Items.Add(p.ProcessName);
+
+            }
+
+            public void NewTask()
+            {
+
+            }
+
+            public void EndTask()
+            {
+
+            }
         }
     }
 }

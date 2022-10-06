@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Utilities",
+    "\\Utilities\\Utilities"
   ],
+  "SelectedNode": "\\Utilities\\Utilities\\Utilities.cs",
   "PreviewInSolutionExplorer": false
 }
