@@ -1,0 +1,6 @@
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\Utilities.dll
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\Utilities.pdb
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.AssemblyReference.cache
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.dll
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.pdb

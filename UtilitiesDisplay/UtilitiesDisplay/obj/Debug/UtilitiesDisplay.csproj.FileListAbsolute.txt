@@ -1,0 +1,14 @@
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.exe.config
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.exe
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.pdb
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.dll
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.pdb
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.AssemblyReference.cache
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.SuggestedBindingRedirects.cache
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.Properties.Resources.resources
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.GenerateResource.cache
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.CoreCompileInputs.cache
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.CopyComplete
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.exe
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.pdb
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.frmUtilitiesDisplay.resources
