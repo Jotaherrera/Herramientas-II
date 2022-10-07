@@ -124,27 +124,49 @@ namespace Utilities
 
             return null;
         }
-
-        public class TaskManager
+    }
+    public class TaskManager
+    {
+        Process[] proc;
+        public void GetTasks(ListBox lst)
         {
-            Process[] proc;
-            public void GetTasks(ListBox lst)
+            lst.Sorted = true;
+            proc = Process.GetProcesses();
+            lst.Items.Clear();
+            foreach (Process p in proc)
+                lst.Items.Add(p.ProcessName);
+
+        }
+
+        public void NewTask(TextBox txt)
+        {
+            if (!string.IsNullOrEmpty(txt.Text))
             {
-                proc = Process.GetProcesses();
+                try
+                {
+                    Process proc = new Process();
+                    proc.StartInfo.FileName = txt.Text;
+                    proc.Start();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+
+        }
+
+        public void EndTask(ListBox lst)
+        {
+            try
+            {
+                proc[lst.SelectedIndex].Kill();
                 lst.Items.Clear();
-                foreach (Process p in proc)
-                    lst.Items.Add(p.ProcessName);
-
+                GetTasks(lst);
             }
-
-            public void NewTask()
+            catch (Exception ex)
             {
-
-            }
-
-            public void EndTask()
-            {
-
+                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

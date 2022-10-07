@@ -26,3 +26,4 @@ C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDispl
 C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.CopyComplete
 C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.exe
 C:\Users\juanh\Documentos\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.pdb
+E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.frmNewTask.resources

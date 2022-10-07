@@ -15,3 +15,8 @@ C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\U
 C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\juanh\Documentos\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CopyComplete
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Interop.WUApiLib.dll
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.ResolveComReference.cache
+E:\Jotaherrera\Coding\Herramientas-II\Utilities\Utilities\obj\Debug\Utilities.csproj.CopyComplete

@@ -50,6 +50,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmNewTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewTask.Designer.cs">
+      <DependentUpon>frmNewTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUtilitiesDisplay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmNewTask.resx">
+      <DependentUpon>frmNewTask.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUtilitiesDisplay.resx">
       <DependentUpon>frmUtilitiesDisplay.cs</DependentUpon>
     </EmbeddedResource>
