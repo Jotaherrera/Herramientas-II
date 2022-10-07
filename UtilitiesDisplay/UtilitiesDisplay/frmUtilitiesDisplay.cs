@@ -20,7 +20,6 @@ namespace UtilitiesDisplay
         public frmUtilitiesDisplay()
         {
             InitializeComponent();
-            grpSystem.Focus();
             lblDrives.Text = "";
             lblSerialNumber.Text = "";
             lblLogProcessors.Text = "";
