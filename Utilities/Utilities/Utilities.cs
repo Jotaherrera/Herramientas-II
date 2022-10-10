@@ -13,12 +13,15 @@ using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using WUApiLib;
 using System.Diagnostics;
+using Microsoft.Win32;
 
 namespace Utilities
 {
-    public class HardDrive
+    public class Drives
     {
-        string serialNo;
+        string hSerialNo;
+        string cSerialNo;
+
         public string GetSerial()
         {
             ManagementObjectSearcher moSearcher = new
@@ -26,15 +29,28 @@ namespace Utilities
 
             foreach (ManagementObject wmi_HD in moSearcher.Get())
             {
-                serialNo = wmi_HD["SerialNumber"].ToString();
+                hSerialNo = wmi_HD["SerialNumber"].ToString();
             }
 
-            return serialNo;
+            return hSerialNo;
         }
 
         public int GetNumberOfDrives()
         {
             return DriveInfo.GetDrives().Length;
+        }
+
+        public string GetCDROM()
+        {
+            ManagementObjectSearcher moSearcher = new
+                ManagementObjectSearcher("SELECT * FROM Win32_CDROMDrive");
+
+            foreach (ManagementObject wmi_CD in moSearcher.Get())
+            {
+                cSerialNo = wmi_CD["SerialNumber"].ToString();
+            }
+
+            return cSerialNo;
         }
     }
 
@@ -135,7 +151,6 @@ namespace Utilities
             lst.Items.Clear();
             foreach (Process p in proc)
                 lst.Items.Add(p.ProcessName);
-
         }
 
         public void NewTask(TextBox txt)
@@ -153,7 +168,6 @@ namespace Utilities
                     MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
         }
 
         public void EndTask(ListBox lst)
@@ -167,6 +181,72 @@ namespace Utilities
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+    public class RegTools
+    {
+        RegistryKey creatingKey = Registry.CurrentUser.CreateSubKey(@"C_OwnKeys", true);
+        RegistryKey openingKey = Registry.CurrentUser.OpenSubKey(@"C_OwnKeys", true);
+
+        public void ReadKey(TextBox txtName, TextBox txtDescript)
+        {
+            if (openingKey.GetValue(txtName.Text) == null)
+            {
+                MessageBox.Show("The key does not exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                txtDescript.Text = openingKey.GetValue(txtName.Text).ToString();
+            }
+        }
+
+        public bool WriteKey(TextBox txtName, TextBox txtDescript)
+        {
+
+            if (openingKey.GetValue(txtName.Text) != null)
+            {
+                DialogResult result = MessageBox.Show("This key already exists. Do you want to edit it?", "Edit key", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    creatingKey.SetValue(txtName.Text, txtDescript.Text);
+
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                creatingKey.SetValue(txtName.Text, txtDescript.Text);
+                return true;
+            }
+
+        }
+
+        public bool DeleteKey(TextBox txtName)
+        {
+            if (openingKey.GetValue(txtName.Text) == null)
+            {
+                MessageBox.Show("The key does not exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("Do you want to delete this key?", "Delete key", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    openingKey.DeleteValue(txtName.Text, true);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
     }

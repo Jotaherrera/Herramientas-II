@@ -2,7 +2,6 @@ E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debu
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.exe
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\UtilitiesDisplay.pdb
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.dll
-E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\bin\Debug\Utilities.pdb
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.AssemblyReference.cache
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.csproj.SuggestedBindingRedirects.cache
 E:\Jotaherrera\Coding\Herramientas-II\UtilitiesDisplay\UtilitiesDisplay\obj\Debug\UtilitiesDisplay.Properties.Resources.resources

@@ -13,9 +13,10 @@ namespace UtilitiesDisplay
 {
     public partial class frmUtilitiesDisplay : Form
     {
-        HardDrive hd = new HardDrive();
+        Drives hd = new Drives();
         SystemInfo si = new SystemInfo();
         TaskManager tm = new TaskManager();
+        RegTools rt = new RegTools();
 
         public frmUtilitiesDisplay()
         {
@@ -38,6 +39,7 @@ namespace UtilitiesDisplay
             lblCores.Text = si.GetNumberOfCores().ToString();
             lblMachineName.Text = si.GetMachineName();
             lblMemoryAmount.Text = $"{si.GetMemoryAmount() / 1000000} GB";
+            lblCDROM.Text = hd.GetCDROM();
             si.GetNIC(rtbNIC);
             si.GetUpdates(rtbUpdates);
             tm.GetTasks(lstTasks);
@@ -58,6 +60,61 @@ namespace UtilitiesDisplay
             frmNewTask.Show();
         }
 
+        private void btnRead_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtValueName.Text) || string.IsNullOrWhiteSpace(txtValueName.Text))
+            {
+                MessageBox.Show("Please enter a key name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+            }
+            else
+            {
+                rt.ReadKey(txtValueName, txtValueData);
+            }
+        }
+
+        private void btnWrite_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtValueName.Text) || string.IsNullOrWhiteSpace(txtValueName.Text))
+            {
+                MessageBox.Show("Please enter a correct key name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (rt.WriteKey(txtValueName, txtValueData))
+                {
+                    txtValueData.Clear();
+                    txtValueName.Clear();
+
+                    MessageBox.Show("The key was written successfully.", "Key written", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("The key was not successfully written.", "Key written", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtValueName.Text) || string.IsNullOrWhiteSpace(txtValueName.Text))
+            {
+                MessageBox.Show("Please enter a correct key name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (rt.DeleteKey(txtValueName))
+                {
+                    txtValueData.Clear();
+                    txtValueName.Clear();
+
+                    MessageBox.Show("The key was successfully deleted.", "Key written", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("The key was not successfully deleted.", "Key written", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
     }
 }
