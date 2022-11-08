@@ -33,7 +33,7 @@ namespace LoginSQL
                         conn.Open();
 
                         int count = 0;
-                        string query = $@"SELECT * FROM user WHERE username = '{txtUser.Text}'";
+                        string query = $@"SELECT * FROM tblUser WHERE txtUsername = '{txtUser.Text}'";
                         cmd.CommandText = query;
                         cmd.Connection = conn;
                         SQLiteDataReader reader = cmd.ExecuteReader();
@@ -75,7 +75,7 @@ namespace LoginSQL
                 SQLiteCommand cmd = new SQLiteCommand(conn);
                 try
                 {
-                    cmd.CommandText = "INSERT INTO user(username, password) VALUES(@username, @password)";
+                    cmd.CommandText = "INSERT INTO tblUser(txtUsername, txtPassword) VALUES(@username, @password)";
 
                     cmd.Parameters.Add(new SQLiteParameter("@username", txtUser.Text));
                     cmd.Parameters.Add(new SQLiteParameter("@password", txtPassword.Text));

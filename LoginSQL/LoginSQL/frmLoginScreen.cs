@@ -41,7 +41,7 @@ namespace LoginSQL
             {
                 SQLiteConnection conn = new SQLiteConnection("Data source = Negocio.db; Version = 3");
                 conn.Open();
-                SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM user WHERE username = @user AND password = @pass", conn);
+                SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM tblUser WHERE txtUsername = @user AND txtPassword = @pass", conn);
                 cmd.Parameters.AddWithValue("@user", txtUser.Text);
                 cmd.Parameters.AddWithValue("@pass", txtPassword.Text);
                 SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
