@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hqQExmq112c1GMuqYtSyope3UAVp+T+OPCKreTYONmLRk9ho3p6XLJRZVWW5q/pYYcWA8j46nl4RjmcBIFCWtA==",
+  "dgSpecHash": "G2r43XMLFv8MYSbXtduNH5kXpDHNZooA5+hgNTZkwV2G3q+GRbmRmqCYQGkhnBJ1fXiD9djRigv0ga2ezX2+Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juanh\\Documents\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
+  "projectFilePath": "D:\\Jotaherrera\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juanh\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

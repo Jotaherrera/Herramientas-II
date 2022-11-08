@@ -1220,11 +1220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juanh\\Documents\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
+      "projectUniqueName": "D:\\Jotaherrera\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
       "projectName": "LoginSQL",
-      "projectPath": "C:\\Users\\juanh\\Documents\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
+      "projectPath": "D:\\Jotaherrera\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\LoginSQL.csproj",
       "packagesPath": "C:\\Users\\juanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juanh\\Documents\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\obj\\",
+      "outputPath": "D:\\Jotaherrera\\Coding\\Herramientas-II\\LoginSQL\\LoginSQL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1277,7 +1277,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
